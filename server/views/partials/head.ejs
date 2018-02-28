@@ -1,0 +1,35 @@
+<head>
+
+	<meta charset="utf-8"/>
+
+	<title><%= title %></title>
+
+	<% if (meta) { %>
+		<meta content="<%= meta.author %>" name="author"/>
+		<meta content="<%= meta.description %>" name="description"/>
+	<% } %>
+	<% if (og) { %>
+		<meta content="<%= og.title %>" property="og:title"/>
+		<meta content="<%= og.type %>" property="og:type"/>
+		<meta content="<%= url %>" property="og:url"/>
+		<meta content="<%= og.image && og.image.url %>" property="og:image"/>
+		<meta content="<%= og.description %>" property="og:description"/>
+	<% } %>
+
+	<meta content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0, minimal-ui" name="viewport"/>
+
+	<link rel="manifest" href="<%= resources['manifest.json'] %>" />
+
+	<meta content="#ffffff" name="msapplication-TileColor"/>
+	<meta content="<%= imagePath %>/icon-144x144.png" name="msapplication-TileImage"/>
+	<meta content="#ffffff" name="theme-color"/>
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-title" content="Gearbox Design">
+	<link href="<%= imagePath %>/icons/icon-152x152.png" rel="apple-touch-icon"/>
+
+	<link rel="stylesheet" href="<%= resources['main.css'] %>" media="screen, print"/>
+	<link rel="stylesheet" href="<%= resources['shared.css'] %>" media="screen, print"/>
+
+</head>

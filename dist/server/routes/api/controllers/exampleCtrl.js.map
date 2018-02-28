@@ -1,0 +1,1 @@
+{"version":3,"file":"exampleCtrl.js","sourceRoot":"","sources":["../../../../../server/routes/api/controllers/exampleCtrl.ts"],"names":[],"mappings":";;AAGA,MAAM,WAAW,GAAoB,CAAC,GAAG,EAAE,GAAG,EAAE,IAAI;IAEnD,MAAM,CAAC,GAAG,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,EAAE,EAAE,EAAE,CAAC,EAAE,CAAC,CAAC;IACvC,kEAAkE;AACnE,CAAC,CAAC;AAEF,kBAAe,WAAW,CAAC"}

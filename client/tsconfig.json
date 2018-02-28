@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"alwaysStrict": true,
+		"baseUrl": ".",
+		"forceConsistentCasingInFileNames": true,
+		"jsx": "react",
+		"lib": [
+			"dom",
+			"es2017"
+		],
+		"listEmittedFiles": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"noImplicitThis": true,
+		"pretty": true,
+		"sourceMap": true,
+		"strictNullChecks": true,
+		"target": "es5",
+		"typeRoots": [
+			"node_modules/@types",
+			"typings",
+			"../shared/typings"
+		],
+		"paths": {
+			"*": [
+				"*",
+				"../shared/*"
+			]
+		}
+	}
+}

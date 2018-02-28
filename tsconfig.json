@@ -1,0 +1,38 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"alwaysStrict": true,
+		"baseUrl": ".",
+		"forceConsistentCasingInFileNames": true,
+		"lib": [
+			"dom",
+			"es2017"
+		],
+		"listEmittedFiles": true,
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"noImplicitThis": true,
+		"outDir": "./dist",
+		"pretty": true,
+		"sourceMap": true,
+		"strictNullChecks": true,
+		"target": "esnext",
+		"typeRoots": [
+			"node_modules/@types",
+			"server/typings",
+			"shared/typings"
+		],
+		"paths": {
+			"*": [
+				"*",
+				"server/*",
+				"shared/*"
+			]
+		}
+	},
+	"include": [
+		"server/**/*",
+		"shared/**/*"
+	]
+}

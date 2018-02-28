@@ -1,0 +1,11 @@
+{
+  "admin.js": "/public/admin.js",
+  "dashboard.js": "/public/dashboard.js",
+  "main.css": "/public/main.css",
+  "main.js": "/public/main.js",
+  "manifest.json": "/public/manifest.json",
+  "monitoring.js": "/public/monitoring.js",
+  "shared.css": "/public/shared.css",
+  "shared.js": "/public/shared.js",
+  "vendor.js": "/public/vendor.js"
+}

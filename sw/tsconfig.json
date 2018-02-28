@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"alwaysStrict": true,
+		"baseUrl": ".",
+		"forceConsistentCasingInFileNames": true,
+		"lib": [
+			"es2017",
+			"webworker"
+		],
+		"listEmittedFiles": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"noImplicitThis": true,
+		"pretty": true,
+		"sourceMap": true,
+		"strictNullChecks": true,
+		"target": "es5",
+		"typeRoots": [
+			"node_modules/@types",
+			"typings"
+		]
+	}
+}
